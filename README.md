@@ -33,3 +33,9 @@ VALUES
 ('S001', 'Lập trình Java cơ bản', 'Nguyễn Văn A', 2022, 10),
 ('S002', 'Cấu trúc dữ liệu & Giải thuật', 'Trần Thị B', 2023, 8);
 ```
+
+
+### Docker SQL
+```
+docker run -d --name mysql-thuvien -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=thuvien -e TZ=Asia/Ho_Chi_Minh -p 3306:3306 -v ~/mysql_data:/var/lib/mysql mysql:8.0
+```
