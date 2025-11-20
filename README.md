@@ -3,7 +3,7 @@
 
 ```K25DTCN284 - Đặng Anh Đức```
 
-```K25DTCN291 Đỗ Đức Huy```
+```K25DTCN291 - Đỗ Đức Huy```
 
 ```K25DTCN311 - Đỗ Hữu Tự```
 
