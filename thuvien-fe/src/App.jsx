@@ -14,12 +14,12 @@ const App = () => {
   const getAllBooks = async () => {
     try {
       setLoading(true);
-      // const res = await apiSach.getAllBooks();
-      const res = [
-        {id:1, maSach: 'S001', tenSach: 'Lập trình Java cơ bản', tacGia: 'Nguyễn Văn A', namXuatBan: 2022, soLuong: 10},
-        {id:2, maSach: 'S002', tenSach: 'Lập trình React nâng cao', tacGia: 'Trần Thị B', namXuatBan: 2023, soLuong: 5},
-        {id:3, maSach: 'S003', tenSach: 'Cấu trúc dữ liệu và giải thuật', tacGia: 'Lê Văn C', namXuatBan: 2021, soLuong: 8},
-      ]
+      const res = await apiSach.getAllBooks();
+      // const res = [
+      //   {id:1, maSach: 'S001', tenSach: 'Lập trình Java cơ bản', tacGia: 'Nguyễn Văn A', namXuatBan: 2022, soLuong: 10},
+      //   {id:2, maSach: 'S002', tenSach: 'Lập trình React nâng cao', tacGia: 'Trần Thị B', namXuatBan: 2023, soLuong: 5},
+      //   {id:3, maSach: 'S003', tenSach: 'Cấu trúc dữ liệu và giải thuật', tacGia: 'Lê Văn C', namXuatBan: 2021, soLuong: 8},
+      // ]
 
       setBooks(res);
     } catch (e) {
