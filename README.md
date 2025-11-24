@@ -39,3 +39,8 @@ VALUES
 ```
 docker run -d --name mysql-thuvien -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=thuvien -e TZ=Asia/Ho_Chi_Minh -p 3306:3306 -v ~/mysql_data:/var/lib/mysql mysql:8.0
 ```
+
+### Verson
+```
+Java: 24, Nodejs: 20.19.5
+```
